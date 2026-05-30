@@ -66,6 +66,27 @@ You can always download newest nightly build **[here](https://github.com/bartlom
 7. Run the src\main.py file
    - ```python3.11 src/main.py```
 
+# Building on MacOs
+
+1. Download Python 3.11.0 for MacOs
+   - ```curl -O https://www.python.org/ftp/python/3.11.0/python-3.11.0-macos11.pkg```
+2. Install Python 3.11.0 by double clicking on PKG file
+and by following on-screen instructions
+3. Check installation
+   - ```python3.11 --version```
+4. Go to the directory containing source code
+   - ```cd ImageHeat-master```
+5. Create virtualenv and activate it
+   - ```python3.11 -m venv my_env```
+   - ```source my_env/bin/activate```
+6. Install libraries
+   - ```pip install --upgrade pip```
+   - ```pip install -r requirements.txt```
+7. Add project's directory to PYTHONPATH environment variable
+   - ```export PYTHONPATH=$(pwd)```
+8. Run the src\main.py file
+   - ```python3.11 src/main.py```
+
 # Badges
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/bartlomiejduda/ImageHeat/total)
