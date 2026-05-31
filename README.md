@@ -39,10 +39,8 @@ You can always download newest nightly build **[here](https://github.com/bartlom
    - ```.\my_env\Scripts\activate.bat```
 5. Install all libraries from requirements.txt file
    - ```pip install -r requirements.txt```
-6. Add project's directory to PYTHONPATH environment variable
-   - ```set PYTHONPATH=C:\Users\user\Desktop\ImageHeat-master```
-7. Run the src\main.py file
-   - ```python src\main.py```
+6. Run the src\main.py file
+   - ```python -m src.main```
 
 # Building on Linux
 
@@ -61,10 +59,8 @@ You can always download newest nightly build **[here](https://github.com/bartlom
    - ```source my_env/bin/activate```
 5. Install all libraries from requirements.txt file
    - ```python3.11 -m pip install -r requirements.txt```
-6. Add project's directory to PYTHONPATH environment variable
-   - ```export PYTHONPATH=/home/user/ImageHeat-master```
-7. Run the src\main.py file
-   - ```python3.11 src/main.py```
+6. Run the src\main.py file
+   - ```python3.11 -m src.main```
 
 # Building on macOS
 
@@ -80,12 +76,9 @@ and by following on-screen instructions
    - ```python3.11 -m venv my_env```
    - ```source my_env/bin/activate```
 6. Install libraries
-   - ```pip install --upgrade pip```
    - ```pip install -r requirements.txt```
-7. Add project's directory to PYTHONPATH environment variable
-   - ```export PYTHONPATH=$(pwd)```
-8. Run the src\main.py file
-   - ```python3.11 src/main.py```
+7. Run the src\main.py file
+   - ```python3.11 -m src.main```
 
 # Badges
 
