@@ -522,7 +522,7 @@ TRANSLATION_MEMORY: List[TranslationEntry] = [
     TranslationEntry(id=TranslationKeys.TRANSLATION_TEXT_ABOUT_WINDOW_VERSION, default="Version: "),
     TranslationEntry(
         id=TranslationKeys.TRANSLATION_TEXT_ABOUT_WINDOW_COPYRIGHT,
-        default="Copyright 2024-2025 © Bartlomiej Duda. All Rights Reserved.\nFor the latest version visit ImageHeat Github page at\n",
+        default="Copyright 2024-2026 © Bartlomiej Duda. All Rights Reserved.\nFor the latest version visit ImageHeat Github page at\n",
     ),
     TranslationEntry(id=TranslationKeys.TRANSLATION_TEXT_EXPORT_FILETYPES_DDS, default="DDS files"),
     TranslationEntry(id=TranslationKeys.TRANSLATION_TEXT_EXPORT_FILETYPES_PNG, default="PNG files"),
